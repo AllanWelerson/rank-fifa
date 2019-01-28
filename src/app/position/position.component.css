@@ -1,0 +1,31 @@
+.rank-position {
+  width: 900px;
+  margin: 20px auto;
+}
+
+.team--position {
+  font-size: 2.5em;
+  margin: 0 10px;
+}
+
+.team--name {
+  font-size: 2em;
+  margin: 0 15px;
+}
+
+.team--points {
+  font-size: 1em;
+  margin: 0 15px;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+}
+
+.points--current {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  height: 20px;
+}

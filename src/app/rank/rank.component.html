@@ -1,0 +1,8 @@
+<section class="rank">
+    <div *ngIf=" rank; else elseBlock">
+      <app-position *ngFor="let p of rank" [team]="p"></app-position>
+    </div>
+    <ng-template #elseBlock>carregando</ng-template>
+</section>
+
+

@@ -1,0 +1,12 @@
+<div class="rank-position">
+  <div class="team">
+    <div class="team--position">{{team.position}}°</div>
+    <img [src]="imgSrc" alt="">
+    <div class="team--name">{{team.team}}</div>
+    <div class="team--confederation">( {{team.confederation}} )</div>
+    <div class="team--points">{{team.points}} points</div>
+  </div>
+  <div class="points">
+    <div class="points--current" [ngStyle]="{'width.%': pointsPercent}"></div>
+  </div>
+</div>

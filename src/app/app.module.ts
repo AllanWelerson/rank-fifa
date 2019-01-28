@@ -1,14 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
+import { RankComponent } from './rank/rank.component';
+import { PositionComponent } from './position/position.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RankComponent,
+    PositionComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
