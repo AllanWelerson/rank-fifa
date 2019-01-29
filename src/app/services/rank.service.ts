@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class RankService {
 
-  private urlData = "http://localhost:3000/rank";
+  private urlData = "https://api-rank-fifa.herokuapp.com/rank";
   private rank;
   private fistPoints: number;
 
