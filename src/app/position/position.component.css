@@ -28,3 +28,26 @@
   color: white;
   height: 20px;
 }
+
+
+@media (max-width : 650px){
+
+  .team--position {
+    font-size: 1em;
+    margin: 0 10px;
+  }
+
+  .team--name {
+    font-size: 1em;
+    margin: 0 15px;
+  }
+
+  .team--points {
+    font-size: 1em;
+    margin: 0 15px;
+  }
+
+  .team--confederation{
+    display: none;
+  }
+}

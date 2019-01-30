@@ -18,7 +18,7 @@ export class PositionComponent implements OnInit {
 
   ngOnInit() {
     const initial = this.initialsService.getInitials(this.team.team);
-    this.imgSrc = `https://www.countryflags.io/${initial}/flat/64.png`;
+    this.imgSrc = `https://www.countryflags.io/${initial}/flat/32.png`;
     const points = (this.team.points /  this.rankService.getFirstPoints()) * 100;
     this.pointsPercent = points.toFixed(2);
 
