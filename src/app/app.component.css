@@ -1,5 +1,25 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+
+
+.title{
+  text-align: center;
+  font-size: 4em;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #273c75;
+  color: white;
+  padding: 20px 0;
+}
+
+.links{
+  text-align: center;
+  color: white;
+  background-color: #ee5253;
+  font-size: 1.3em;
+  padding: 10px 0;
+}
+
+.links a{
+  color: white;
+
 }

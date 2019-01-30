@@ -78,7 +78,7 @@ export class InitialsService {
     { "initials": "ER", "team": "Eritrea" },
     { "initials": "ES", "team": "Spain" },
     { "initials": "ET", "team": "Ethiopia" },
-    { "initials": "EU", "team": "USA" },
+    { "initials": "US", "team": "USA" },
     { "initials": "FI", "team": "Finland" },
     { "initials": "FJ", "team": "Fiji" },
     { "initials": "FK", "team": "Falkland Islands (Malvinas)" },

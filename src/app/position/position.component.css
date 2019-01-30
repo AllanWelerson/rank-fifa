@@ -24,8 +24,7 @@
 }
 
 .points--current {
-  border: 1px solid red;
-  background-color: red;
+  background-color: #ee5253;
   color: white;
   height: 20px;
 }
