@@ -11,8 +11,8 @@ import { InitialsService } from '../services/initials.service';
 export class PositionComponent implements OnInit {
 
   @Input() public team;
-  private imgSrc;
-  private pointsPercent;
+  public imgSrc;
+  public pointsPercent;
 
   constructor(private rankService: RankService, private initialsService: InitialsService) { }
 
